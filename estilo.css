@@ -1,0 +1,772 @@
+/*Classes Gerais*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+}
+.margem{
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+}
+
+#textinhos{
+    margin-right: 30%;
+    margin-left: 10%;
+
+}
+/*Menu*/
+
+header li{
+    display: inline;
+    padding: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 22px;
+
+    letter-spacing: 0.02em;
+
+    color: #030303;
+} 
+header a{
+    text-decoration: none;
+    color: #030303;
+}
+
+/*Header*/
+#header_header{  
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 40px;   
+}
+#Logo{
+    position: absolute;
+    width: 31px;
+    height: 38px;
+    border-radius: 7px;
+    margin-left: 10%;
+
+}
+#IF{
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: -0.01em;
+    color: #0F1130;
+ 
+    margin-left: 12%;
+
+    margin-top: 3px;
+}
+#Quest{
+    position: absolute;
+    top: 25px;
+
+    width: 165px;
+    height: 65px;
+}
+
+#Onibus{
+    position: absolute;
+    width: 952px;
+    height: 582px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+#mu{
+    position: absolute;
+    width: 521px;
+    height: 365px;
+    margin-left: 330px;
+}
+#Titulo{
+    position: absolute;
+    width: 521px;
+    height: 144px;
+    margin-left: 80px;
+    margin-top: 250px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 72px;
+
+    color: #101130;
+}
+#txt1{
+position: absolute;
+width: 447px;
+height: 96px;
+margin-left: 80px;
+margin-top: 420px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+color: #606176;
+}
+
+#BotaoHeader{
+    margin-left: 90px;
+    margin-top: 580px;
+
+    height: 60px;
+    width: 250px;    
+}
+
+/*Parte 02*/
+#tabela{
+    position: absolute;
+    width: 516px;
+    height: 200px;
+    top: 988px;
+}
+#locomocoes{
+    width: 607px;
+    height: 661px;
+    margin-left: 20px;
+}
+#como{
+    position: absolute;
+    width: 478px;
+    height: 112px;
+    margin-left: 580px;
+    top: 925.33px;  
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+.quadrado{
+    width: 256px;
+    height: 222px;
+}
+#bicicleta{
+    position: absolute;
+    width: 256px;
+    margin-left: 580px;
+    top: 1105px;
+}
+#carro{
+    position: absolute;
+    width: 269px;
+    height: 222px;
+    margin-left: 900px;
+    top: 1105px;
+}
+#pedestres{
+    position: absolute;
+    width: 256px;
+    height: 222px;
+    margin-left: 580px;
+    top: 1350px;
+}
+#onibus{
+    position: absolute;
+    width: 269px;
+    height: 222px;
+    margin-left: 900px;
+    top: 1350px;
+}
+#icon_bicicleta{
+    width: 44px;
+    height: 40px;
+
+    padding: 10px;   
+    background: #D2F1E1;
+    border-radius: 16px;
+}
+#icon_carro{
+    width: 54px;
+    height: 35px;
+
+    padding: 10px;   
+    background: #D2F1E1;
+    border-radius: 16px;
+}
+#icon_pedestres{
+    width: 53px;
+    height: 56px;
+
+    padding: 10px;   
+    background: #D2F1E1;
+    border-radius: 16px;
+}
+#icon_onibus{
+    width: 65px;
+    height: 56px;
+
+    padding: 10px;   
+    background: #D2F1E1;
+    border-radius: 16px;
+}
+
+/*Parte 03*/
+#video iframe{
+    border-radius: 5%;
+    
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top: 1890px;
+    z-index: 1;
+
+    margin-left: 94px;
+}
+#cinzinha{
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    margin-left: 124px;
+    top: 1807px;
+
+    background: #F6F5FA;
+    border-radius: 18px;
+}
+
+.texto{
+    height: 50%;
+    width: 50%;
+}
+.texto h1{
+    position: absolute;
+    width: 476px;
+    height: 114px;
+    margin-left: 119px;
+    top: 1800px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+.texto p{
+    position: absolute;
+    width: 526px;
+    height: 200px;
+    margin-left: 119px;
+    top: 1960px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    
+    color: #606176;
+}
+
+#BotaoAssistir{
+    margin-left: 119px;
+    margin-top: 780px;
+
+    height: 60px;
+    width: 250px;
+}
+
+
+/*Parte 04*/
+#primeira_imagem{
+    border-radius: 10%;
+    position: absolute;
+    width: 296.73px;
+    height: 260.43px;
+    top: 2557px;
+    
+}
+#bbb{
+    position: absolute;
+    width: 584px;
+    height: 183px;
+    margin-left: 139px;
+    top: 2349px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+#ccc{
+    position: absolute;
+    width: 315.27px;
+    height: 72.61px;
+    top: 2835.2px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+#ddd{
+    position: absolute;
+    width: 300.39px;
+    height: 241.84px;
+    top: 2885.2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+}
+#eee{
+    position: absolute;
+    width: 296px;
+    height: 260px;
+    top: 2557px;
+}
+#fff{
+    position: absolute;
+    width: 250px;
+    height: 26px;
+    top: 2835.2px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+#ggg{
+    position: absolute;
+    width: 295.21px;
+    height: 126.72px;
+    top: 2885.2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+}
+#hhh{
+    position: absolute;
+    width: 295.21px;
+    height: 208px;
+    top: 2587px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+}
+#iii{
+    position: absolute;
+    width: 295.21px;
+    height: 90.77px;
+    top: 2835.2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+#jjj{
+    position: absolute;
+    width: 299px;
+    height: 239px;
+    top: 2885.2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+
+#textinho_ciclista{
+    bottom: 397px;
+}
+#textinho_acessibilidade{
+    bottom: 397px;
+}
+#textinho_seguranca{
+    bottom: 397px;
+}
+
+/*Botao diferente*/
+div[class*=box] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 { 
+    background-color: #3BB77E; 
+    border-radius: 16px;
+}
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+.btn-one {
+	color: #FEF4F1;
+	transition: all 0.3s;
+	position: relative;
+}
+.btn-one a {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.btn-one:hover a {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.btn-one::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-one:hover::after {
+	transform: scale(0.1, 1);
+}
+
+/*Botao Questionário*/
+  
+  .box-2 { 
+      background-color: #D2FFEA; 
+      border-radius: 16px;
+  }
+  
+.btn{
+      line-height: 50px;
+      height: 50px;
+      text-align: center;
+      width: 250px;
+}
+  .btn-two a{
+      color: #3BB77E;
+      transition: all 0.3s;
+      position: relative;
+  }
+  .btn-two a {
+      transition: all 0.3s;
+  }
+  .btn-two::before {
+      content: '';
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+
+      transition: all 0.3s;
+      border-top-width: 1px;
+      border-bottom-width: 1px;
+      border-top-style: solid;
+      border-bottom-style: solid;
+      border-top-color: rgba(255,255,255,0.5);
+      border-bottom-color: rgba(255,255,255,0.5);
+      transform: scale(0.1, 1);
+  }
+  .btn-two:hover a {
+      letter-spacing: 2px;
+  }
+  .btn-two:hover::before {
+      opacity: 1;	
+      transform: scale(1, 1);	
+  }
+  .btn-two::after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all 0.3s;
+      background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two:hover::after {
+      transform: scale(0.1, 1);
+  }
+  
+
+  /*Rodapé do pedro*/
+
+  #Logo2{
+    position: absolute;
+width: 31px;
+height: 41px;
+margin-left: 140px;
+top: 510px;
+
+
+}
+#IF2{
+    position: absolute;
+width: 261px;
+height: 38px;
+margin-left: 183px;
+top: 500px;
+
+}
+#logo_rodapé{
+    position: absolute;
+width: 285px;
+height: 130px;
+margin-left: 181px;
+top: 540px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+letter-spacing: -0.02em;
+
+color: #606176;
+
+}
+#Insta{
+    position: absolute;
+width: 181px;
+height: 214px;
+margin-left: 606px;
+top: 502px;
+}
+
+#Insta li{
+    padding-bottom: 5px;
+
+}
+#Insta a{
+    color: #0F1130;
+ }
+#Trabai{
+    position: absolute;
+width: 147px;
+height: 125px;
+margin-left: 946px;
+top: 502px;
+}
+
+#Trabai li{
+    width: 147px;
+    height: 24px;
+    padding-bottom: 5px;
+
+}
+
+#Trabai a{
+    color: #0F1130;
+ }
+#parte6{
+    margin-left: 20%;
+}
+
+footer a{
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+}
+
+.margenzinha{
+    margin-left: 25%;
+}
+
+#cinza p{
+    color: #606176;
+    font-weight: 300;
+    opacity: 70%;
+}
+
+#parte6{
+    position: absolute;
+}
+
+.none{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    background-color: #ddd;
+    border-radius: 10%;
+    border: #3BB77E 10px solid;
+
+    margin-top: 50px;
+}
+
+#mapinha{
+    margin-top: 1900px;
+    margin-right: 30%;
+
+    border-radius: 10%;
+    border: #3BB77E 10px solid;
+    width: 60%;
+    height: 600px;
+}
+
+.margem5{
+    margin-left: 20%;
+}
+#parte5{
+    position: absolute;
+    margin-top: 1100px;
+}
+
+#parte5 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+ .texto2{
+    margin-left: 20%;
+    width: 500px;
+    height: 500px;
+
+}
+.texto2 h1{
+    position: absolute;
+    width: 526px;
+    height: 114px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+
+    letter-spacing: -0.01em;
+
+    color: #101130;
+}
+#p1{
+    position: absolute;
+    width: 526px;
+    height: 200px;
+
+    margin-top: 250px;
+    
+    text-indent: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    
+    color: #606176;
+
+    text-align: justify;
+}
+
+#p2{
+    position: absolute;
+    width: 526px;
+    height: 200px;
+
+    margin-top: 350px;
+    
+    text-indent: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    
+    color: #606176;
+
+    text-align: justify;
+}
+
+#p3{
+    position: absolute;
+    width: 526px;
+    height: 200px;
+
+    margin-top: 500px;
+    
+    text-indent: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    
+    color: #606176;
+
+    text-align: justify;
+}

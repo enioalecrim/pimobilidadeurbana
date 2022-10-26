@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Instituto_Federal_Marca_2015.svg/640px-Instituto_Federal_Marca_2015.svg.png">
+
+    <title>Mobilidade Urbana</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Kanit:wght@600&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+</head>
+<body>
+    <header id="parte1">
+        <img id="Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Instituto_Federal_Marca_2015.svg/640px-Instituto_Federal_Marca_2015.svg.png" alt="">
+        <p id="IF"> Instituto Federal Goiano </p>
+
+        <aside class="flex between" id="header_header">
+            <section class="teste">
+            </section>
+
+            <section>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#parte1">Inicio</a></li>
+                        <li><a href="#parte2">Mobilidade Estudantil</a></li>
+                        <li><a href="#parte3">Importância</a></li>
+                        <li><a href="#parte4">Requisitos</a> </li>
+                        <li><a href="#parte5">Projeto</a> </li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section>
+                <div class="box-2" id="Quest">
+                    <div class="btn btn-two">
+                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd8L5hJz6Z0ECypgd-B9HOdwtnYQScQBeyWsxB9XuNsIIo0Iw/viewform">Questionário</a>
+                    </div>
+                </div>
+            </section>
+
+        </aside>
+        
+        <section class="flex margem" id="'mu'">
+            <div>
+                <h1 id="Titulo">Mobilidade <br>Urbana</h1>
+                <p id="txt1">A mobilidade urbana é definida como a capacidade de deslocar de um ponto para outro dentro de um meio urbano. Esse conceito se aplica a todos meios de locomoção.</p>
+                <div class="box-1" id="BotaoHeader">
+                    <div class="btn btn-one">
+                        <a target="_blank" class="none" href="https://pt.wikipedia.org/wiki/Mobilidade_urbana">Entender Melhor</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img id="Onibus" src="https://static.wixstatic.com/media/a3fe12_e5e9bedc81eb498cb65b94c9e31de24f~mv2.png/v1/fill/w_402,h_244,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/onibus%20escolar.png" alt="">
+            </div>
+        </section>
+    </header>
+    
+<!--Mobilidade Estudantil-->
+    <aside id="parte2" class="flex margem">
+        <section id="tabela">
+            <canvas id="myChart">
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script>
+                    const data = {
+                            labels: [
+                            'Bicicleta',
+                            'Automóvel',
+                            'Ônibus e Van',
+                            'Andando',
+                            'Motocicleta'
+                            ],
+                            datasets: [{
+                            label: 'My First Dataset',
+                            data: [24, 47, 19, 35, 45],
+                            backgroundColor: [
+                            'rgb(255, 99, 132)',
+                            'rgb(75, 192, 192)',
+                            'rgb(255, 205, 86)',
+                            'rgb(201, 203, 207)',
+                            'rgb(54, 162, 235)'
+                            ]
+                            }]
+                        };
+                      
+                    const config = {
+                            type: 'doughnut',
+                            data: data,
+                        };
+                </script>
+        
+                <script>
+                    const myChart = new Chart(
+                          document.getElementById('myChart'),
+                          config
+                        );
+                </script>     
+                </canvas>
+        </section>
+
+        <section id="locomocoes">
+            <header>
+                <h1 id="como">Como os estudantes <br> 
+                    chegam ao instituto?</h1>
+            </header>
+            <main class="flex" id="cinza">
+                <section id="bicicleta">
+                    <img id="icon_bicicleta" src="https://cdn-icons-png.flaticon.com/512/71/71422.png" alt="">
+                    <h3>Bicicletas</h3>
+                    <p>Por ser uma opção mais em conta e de certa forma mais fácil e rápida, muitos optam por esse meio .</p>
+                </section>
+
+                <section id="carro">
+                    <img id="icon_carro" src="https://static.vecteezy.com/system/resources/previews/001/193/785/non_2x/car-png.png" alt="">
+                    <h3>Automóveis e Motocicletas</h3>
+                    <p>Grande parte utilizam automóveis dos pais ou suas próprias motocicletas para se deslocar até o instituto</p>
+                </section>
+
+                <section id="pedestres">
+                    <img id="icon_pedestres" src="https://cdn-icons-png.flaticon.com/512/177/177873.png" alt="">
+                    <h3>Andando</h3>
+                    <p>Alguns alunos que moram próximo ao Instituto vão andando, mas não só aqueles que moram próximo. Por não terem uma bicicleta ou algum automóvel têm que se deslocar, independente da distância, andando.</p>
+                </section>
+
+                <section id="onibus">
+                    <img id="icon_onibus" src="https://images.vexels.com/media/users/3/134427/isolated/preview/dc565e30f7d03bbcee6a18e9e04749c6-desenho-do-onibus-escolar-plano.png" alt="">
+                    <h3>Onibus e vans</h3>
+                    <p>Geralmente, os alunos que vão de ônibus e vans, são aqueles que moram em outras cidades. Dessa forma, a prefeitura do município disponibiliza o transporte para esses alunos. </p>
+                </section>
+            </main>
+        </section>
+    </aside>
+
+<!--Curta-metragem-->
+    <aside id="parte3" class="flex margem">
+        <section id="importancia" >
+            <div class="texto">
+                <h1>A importância da <br> mobilidade urbana </h1>
+                <p>A importância da mobilidade urbana se dá em razão que possibilita o acesso à cidade, favorecendo aos cidadãos a locomoção no ambiente urbano, em diversos bairros e localidade, dos mais próximos aos mais distantes locais, com diversas finalidade, seja trabalho, estudo ou lazer</p>
+        
+                <div class="box-1" id="BotaoAssistir">
+                    <div class="btn btn-one">
+                        <a target="_blank" class="none" href="https://youtu.be/EH7rfnRGA-g"> Assistir no Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video" class="margem">
+            <iframe width="956" height="538" src="https://www.youtube.com/embed/EH7rfnRGA-g" title="Mobilidade Urbana - PI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div id="cinzinha"></div>
+        </section>
+    </aside>
+
+<!--Requisitos-->
+    <aside id="parte4" class="margem">
+            <section>
+                <h1 id="bbb">
+                    Requisitos para segurança e conforto na mobilidade
+                </h1>
+            </section>
+            <section class="flex between" id="textinhos">
+                <div id="textinho_ciclista">
+                    <img id="primeira_imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT736v1y0VjOW15_NYqgmliOVAOzxdQ6IJiPA&usqp=CAU'" alt="">
+                    <h2 id="ccc">
+                        Segurança para ciclistas
+                    </h2>
+                    <p id="ddd">
+                            É importante os próprios ciclistas adotarem o uso de equipamentos de segurança. Mas não somente isso. Por parte da prefeitura a criação de ciclovias, ciclofaixas e ciclorrota, além de uma melhor sinalização para ajudar os ciclistas. É necessário também, por parte dos motoristas, respeitar os ciclistas, visto que não os respeitam                    
+                    </p>
+                </div> 
+                <div id="textinho_acessibilidade">
+                    <img id="eee" src="https://diariodainclusaosocialdotcom.files.wordpress.com/2017/11/acessibilidade.jpg" alt="">
+                    <h2 id="fff">
+                        Acessibilidade garantida
+                    </h2>
+                    <p id="ggg">
+                            É necessário implantar nas ruas e calçadas meios de garantir acessibilidades para PDC’s e PNE’s. Isso será possível por meio da ampliação de calçadas e a inserção de rampas e pisos tatéis e a adaptação de semáforos. Além de um cuidado especial com as calçadas, visto que muitas são esburacadas dificultando o acesso de, por exemplo, cadeirantes.
+                    </p>
+                </div>
+                <div id="textinho_seguranca">
+                    <img id="hhh" src="https://thumbs.dreamstime.com/b/pessoas-caminhando-na-faixa-de-pedestres-atravessando-estrada-interse%C3%A7%C3%A3o-em-uma-segura-com-placa-vazia-leis-tr%C3%A2nsito-164645631.jpg" alt="">
+                    <h2 id="iii">
+                        Segurança para pedestres
+                    </h2>
+                    <p id="jjj">
+                        Não adianta haver faixas de pedreste nas ruas se não são respeitadas. Dessa forma, é necessário, primeiramente, a conscientização por parte dos motoristas em relação ao respeito à faixas de pedrestes. Além disso, faz-se necessário também, a implantação de semáforos juntamente a faixas de pedestre, principalmente em ruas e avenidas movimentadas, para pedrestres, pois assim facilitaria a travessia nas ruas.
+                    </p>
+                </div>
+            </section>
+    </aside>
+    
+<!--Mapa-->
+    <aside id="parte5" class="flex margem5">
+
+    <section>
+        <div id="map"></div>
+        <script src="MobilidadeUrbanaJS.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" async defer></script>
+    </section>
+
+    <section>
+            <div class="texto2 flex">
+                <h1> Projeto de Itininerário para estudantes do Campus Iporá </h1>
+
+                <p id="p1">Através de uma coletânea de dados foi possível a elaboração de um projeto que permite aos alunos iporaenses do IF serem transportados para o campus de forma segura e eficiente.</p>
+                
+                <p id="p2">Devido a falta de um sistema de transporte público e acessibilidade à ciclistas em Iporá, os alunos que precisam se locomover para o Instituto por conta própria estão em risco a todo momento; além de que, muitos percorrem grandes jornadas devido à distância de suas casas.</p>
+
+                <p id="p3">Com isso em mente, foi realizado um passeio de estudo e observação pelas ruas da cidade onde os alunos marcaram locais e realizaram cálculos para determinar uma rota e possíveis pontos de ônibus, para que de tal forma os estudantes pudessem ir para o campus e voltar para suas casas de maneira mais segura e eficiente.</p>
+            </div>
+    </section>
+    </aside>
+    <iframe class="margem5" id="mapinha" src="https://www.google.com/maps/d/u/1/embed?mid=1IuTH3huLrzbXvq_jNQHJNXGPuACGqio&ehbc=2E312F"></iframe>
+
+<!--Mapa Formulário-->
+
+
+    <footer id="parte6">
+        <div id="ifg">
+            <section>
+                <img id="Logo2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Instituto_Federal_Marca_2015.svg/640px-Instituto_Federal_Marca_2015.svg.png" alt="">
+                <h1 id="IF2"> Instituto Federal Goiano </h1>
+            </section>
+            <div id="logo_rodapé">
+                <p>
+                    O conteúdo do site é exclusivamente baseado nos projetos dos demais grupos e com o aprendizado obtido em aula.
+                </p>
+            </div>
+        </div>
+        <div id="Insta">
+            <h2 class="margenzinha">
+                Progamadores
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://instagram.com/denis_sreis?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram-original"></i> Denis Reis</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/pedro.abreu._?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram-original"></i> Pedro Felipe</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/ottavio.miguel?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram-original"></i> Ottavio Miguel</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/sukeryusuke?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram-original"></i> Renan Ryusuke</a>
+                </li>
+            </ul>
+        </div>
+        <div id="Trabai">
+            <h2 class="margenzinha">
+                Suporte
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://instagram.com/enioalecrim?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram-original"></i> Enio Alecrim</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/lucasfernandolc?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram-original"></i> Lucas Fernando</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
